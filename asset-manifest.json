@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/react9kapp/static/css/main.6d431862.chunk.css",
+    "main.js": "/react9kapp/static/js/main.05c0778d.chunk.js",
+    "main.js.map": "/react9kapp/static/js/main.05c0778d.chunk.js.map",
+    "runtime-main.js": "/react9kapp/static/js/runtime-main.de721cb7.js",
+    "runtime-main.js.map": "/react9kapp/static/js/runtime-main.de721cb7.js.map",
+    "static/css/2.92a5c8c8.chunk.css": "/react9kapp/static/css/2.92a5c8c8.chunk.css",
+    "static/js/2.439e5aa4.chunk.js": "/react9kapp/static/js/2.439e5aa4.chunk.js",
+    "static/js/2.439e5aa4.chunk.js.map": "/react9kapp/static/js/2.439e5aa4.chunk.js.map",
+    "index.html": "/react9kapp/index.html",
+    "static/css/2.92a5c8c8.chunk.css.map": "/react9kapp/static/css/2.92a5c8c8.chunk.css.map",
+    "static/css/main.6d431862.chunk.css.map": "/react9kapp/static/css/main.6d431862.chunk.css.map",
+    "static/js/2.439e5aa4.chunk.js.LICENSE.txt": "/react9kapp/static/js/2.439e5aa4.chunk.js.LICENSE.txt",
+    "static/media/hand.c78bd405.svg": "/react9kapp/static/media/hand.c78bd405.svg",
+    "static/media/Hero.scss": "/react9kapp/static/media/heroBg.d64fe7d4.svg",
+    "static/media/heroMain.a16f13fc.svg": "/react9kapp/static/media/heroMain.a16f13fc.svg",
+    "static/media/human.81aaa68d.svg": "/react9kapp/static/media/human.81aaa68d.svg",
+    "static/media/rocket.979db406.png": "/react9kapp/static/media/rocket.979db406.png",
+    "static/media/s1.ef387248.svg": "/react9kapp/static/media/s1.ef387248.svg",
+    "static/media/s2.3f4fd042.svg": "/react9kapp/static/media/s2.3f4fd042.svg",
+    "static/media/s3.76f213e1.svg": "/react9kapp/static/media/s3.76f213e1.svg",
+    "static/media/s4.55ff2f14.svg": "/react9kapp/static/media/s4.55ff2f14.svg",
+    "static/media/slick-theme.css": "/react9kapp/static/media/slick.c94f7671.ttf",
+    "static/media/test1.ec4c78fa.svg": "/react9kapp/static/media/test1.ec4c78fa.svg",
+    "static/media/test2.104a24bd.svg": "/react9kapp/static/media/test2.104a24bd.svg",
+    "static/media/test3.61565bd6.svg": "/react9kapp/static/media/test3.61565bd6.svg",
+    "static/media/About.scss": "/react9kapp/static/media/wave.504c61b3.svg",
+    "static/media/what.69fb62d1.svg": "/react9kapp/static/media/what.69fb62d1.svg",
+    "static/media/whatDoCommon.bace9f3f.svg": "/react9kapp/static/media/whatDoCommon.bace9f3f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de721cb7.js",
+    "static/css/2.92a5c8c8.chunk.css",
+    "static/js/2.439e5aa4.chunk.js",
+    "static/css/main.6d431862.chunk.css",
+    "static/js/main.05c0778d.chunk.js"
+  ]
+}
