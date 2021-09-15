@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;900&family=Raleway:wght@300;400;500;600;700;900&display=swap');
+*,
+ ::before,
+ ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    // font-family: 'Mulish', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+// for sidebar 
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.sidebarLogo {
+    font-size: 45px;
+    animation: move 12s linear infinite;
+    -webkit-animation: move 12s linear infinite;
+}
+
+.offcanvas {
+    overflow: hidden;
+    ul li a {
+        text-transform: uppercase;
+        margin: 5px 0;
+        color: #115293;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+    }
+    .menu-active {
+        color: #1976D2;
+    }
+    .socialLink {
+        font-size: 20px;
+        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+    }
+    .socialLink:hover {
+        color: #1976D2;
+    }
+}
+
+// keyframes for sidebar 
+@keyframes move {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

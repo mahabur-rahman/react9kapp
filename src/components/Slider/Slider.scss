@@ -1,0 +1,75 @@
+#testimonial {
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background: #EFF7F9;
+    .testHeading {
+        h2 {
+            position: relative;
+            color: #000;
+            font-size: 35px;
+            letter-spacing: 2px;
+            font-weight: 600;
+            &::before {
+                content: "";
+                position: absolute;
+                bottom: -40%;
+                left: 50%;
+                height: 4%;
+                width: 13%;
+                background: #115293;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+            }
+        }
+    }
+    .card {
+        padding: 20px 0;
+        border: none;
+        outline: none;
+        img {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+        }
+        p {
+            margin: 15px 0;
+            font-weight: 300;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            color: #115293;
+        }
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #115293;
+            margin-bottom: 30px;
+        }
+        .quote {
+            font-size: 1.3rem;
+            padding: 10px;
+            opacity: .2;
+        }
+    }
+    .slick-prev::before,
+    .slick-next::before {
+        color: #115293;
+    }
+    .slick-dots li.slick-active button::before {
+        opacity: 1;
+        color: #115293;
+    }
+    .slick-dots li button::before {
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,51 @@
+    #servicesSection {
+        font-family: 'Mulish', sans-serif;
+        overflow: hidden;
+        padding: 70px 0;
+        background: #EFF7F9;
+        .servicesTitle {
+            h2 {
+                margin-bottom: 60px;
+                font-size: 35px;
+                font-weight: 600;
+                letter-spacing: 2px;
+                color: #115293;
+            }
+        }
+        .card {
+            background: #115293;
+            border: none;
+            img {
+                margin: 0 auto;
+                width: 250px;
+                height: 220px;
+            }
+            .card-title {
+                color: #ddd;
+                font-size: 1.5rem;
+                letter-spacing: 2px;
+                font-weight: 700;
+            }
+            p {
+                color: #EFF7F9;
+                font-size: 1rem;
+                letter-spacing: 1px;
+                font-weight: 300;
+            }
+            transition: .4s;
+            // card hover 
+            &:hover {
+                color: #ddd;
+                background: #483290;
+            }
+        }
+        .card:hover .card-title {
+            color: #ddd;
+        }
+    }
+    
+    @media (max-width:991px) {
+        #servicesSection {
+            padding: 100px 0;
+        }
+    }

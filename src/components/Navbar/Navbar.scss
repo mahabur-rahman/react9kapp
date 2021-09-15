@@ -1,0 +1,97 @@
+#header {
+    overflow: hidden;
+    margin-bottom: 90px;
+    .navbar {
+        background: #115293;
+        padding: 7px 0;
+        border-bottom: 2px solid #483290;
+        .navbar-brand {
+            color: #fff;
+            svg {
+                width: 50px;
+                height: 50px;
+            }
+            .animatedLogo {
+                animation: move 12s linear infinite;
+                -webkit-animation: move 12s linear infinite;
+            }
+            // keyframes 
+            @keyframes move {
+                from {
+                    -webkit-transform: rotate(0deg);
+                    -o-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                }
+                to {
+                    -webkit-transform: rotate(360deg);
+                    -o-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                    -moz-transform: rotate(360deg);
+                    -ms-transform: rotate(360deg);
+                }
+            }
+        }
+        .nav-link {
+            position: relative;
+            text-transform: uppercase;
+            margin: 0 6px;
+            color: #ddd;
+            font-size: 18px;
+            letter-spacing: 2px;
+            font-weight: 600;
+            transition: .4s;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -ms-transition: .4s;
+            -o-transition: .4s;
+        }
+        .nav-link::before {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            content: "";
+            background: #ddd;
+            height: 2px;
+            width: 0;
+            transition: .4s all ease-in;
+            -webkit-transition: .4s all ease-in;
+            -moz-transition: .4s all ease-in;
+            -ms-transition: .4s all ease-in;
+            -o-transition: .4s all ease-in;
+        }
+        .nav-link:hover::before {
+            width: 100%;
+        }
+        .activeMenu {
+            color: #fff;
+        }
+        //   bar icon
+        button {
+            background: transparent;
+            display: none;
+            border: 0;
+            outline: 0;
+            svg {
+                color: #ddd;
+                font-size: 35px;
+            }
+        }
+        button:focus {
+            box-shadow: none;
+        }
+    }
+    .navbar-collapse {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    #header {
+        .navbar {
+            button {
+                display: block;
+            }
+        }
+        margin-bottom: 0;
+    }
+}
